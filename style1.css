@@ -1,0 +1,71 @@
+*{
+  padding: 0px;
+  margin: 0px;
+
+}
+html{
+  font-family: sans-serif;
+}
+
+.navbar{
+  width: auto;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  margin: 0,5px,0,5px;
+  background-color: DodgerBlue;
+}
+.nav{
+  text-decoration: none;
+  color: white;
+  float: right;
+}
+.container{
+  width: auto;
+  height: 200px;
+  background-color:orange;
+  color: white;
+  text-align: center;
+  margin: 15px;
+}
+.text{
+  margin: 0 auto;
+  transform: translateY(80px);
+}
+.text1 {
+  font-size: 50px;
+}
+.wrapper {
+  display: flex;
+  margin: 15px;
+}
+.box4, .box6, .box5{
+  padding: 10px;
+  background-color: DodgerBlue;
+  border: 2px solid lightblue;
+  text-align: center;
+  color: white;
+}
+.image {
+    width: 100px;
+    height: 100px;
+}
+.externalBox {
+  display: flex;
+  background-color: orange;
+  text-align: center;
+  margin: 15px;
+}
+.externalBox h2 {
+  transform: translateY(40%);
+  font-size: 30px;
+  margin: 0 auto;
+  color: white;
+}
+.creditBox {
+  width: 30%;
+  border: 10px solid black;
+  margin: 0 auto;
+  color: white;
+  padding: 10px;
+}
